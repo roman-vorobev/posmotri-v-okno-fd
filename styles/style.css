@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,6 +51,7 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
+  background-color: #d9d9d9;
 }
 
 .visually-hidden {
@@ -68,12 +72,6 @@ ol {
   outline-color: white;
   outline-offset: 1px;
   outline-style: solid;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
